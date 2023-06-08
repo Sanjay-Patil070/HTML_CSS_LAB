@@ -1,0 +1,63 @@
+.showcase {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.video-container video{
+  width: auto;
+
+  height:auto;
+
+  position: fixed;
+}
+.form1{
+  border: 1px solid white;
+  position: absolute;
+
+  top: 30%;
+  left: 40%;
+
+  padding: 20px;
+
+  /* justify-content: center; */
+}
+
+
+#button input{
+    background-color:hotpink;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #011324;
+    background-color: transparent;
+    /* transition: background-color 0.3s ease; */
+  }
+
+  input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    outline: none;
+    color: white;
+    background-color: rgb(175, 102, 243);
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #600404;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="text"]:hover, input[type="tel"]:hover, input[type="email"]:hover{
+    background-color: steelblue;
+    opacity: 0.35;
+  }
+
+ 
+  

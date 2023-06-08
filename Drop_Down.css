@@ -1,0 +1,73 @@
+header h1{
+    background-color: brown;
+    height: 50px;
+    font-size: xx-large;
+    text-align: right;
+    padding-inline-end: 10%;
+    margin: 0%;
+}
+#navigate{
+    top: 0%;
+}
+
+.menu{
+    margin: 0%;
+    background-color: gray;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu li:hover{
+    background-color: black;
+}
+
+.box2 {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+      top: 101px;  
+    
+     padding: 0%;
+     width: auto;
+     max-width: 150px;
+    
+}
+.box2 li{
+    display: block;
+}
+
+
+.box2 li:hover{
+    background-color:steelblue;
+}
+
+
+.box2 li a{
+    text-decoration: none;
+    color:blue;
+}
+.menu li:nth-child(1):hover  .box2{
+    display: block;
+}
+
+.menu li:nth-child(2):hover .box2{
+    display: block;
+}
+
+.menu li:nth-child(3):hover .box2{
+    display: block;
+}
+
+
+
+
+
+
